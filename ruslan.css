@@ -1,0 +1,79 @@
+.header {
+	display: grid;
+	background-image:url("https://img.freepik.com/premium-vector/background-beige-gradient-vector_686681-34.jpg");
+	color: white;
+	height: 10vh;
+	width: 100%;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-areas:
+				"item1 item2 item3";
+	text-align: center;
+	margin: 0 auto;
+	align-items:  center;
+}
+.header a {
+	text-decoration: none;
+	color: SaddleBrown;
+	}
+.item2 a {
+	color: black;
+	font-size: 1.7em;
+	text-decoration: underline;
+}
+.item1{
+	font-size: 1.3em;
+}
+.item3{
+	font-size: 1.3em;
+}
+.whole {
+	height: 100%;
+	width: 100%;
+    background: AntiqueWhite;
+}
+.main p {
+	text-align: center;
+	font-size: 2em;
+}
+.le {
+	padding-left: 43%;
+	font-size: 1.5em;
+}
+.main ol {
+	padding-left: 41%;
+	font-size: 1.5em;
+}
+.main a {
+	text-decoration: none;
+	color: black;
+}
+.main a:visited {
+	color: black;
+}
+.main li{
+	padding-top: 0.9%;
+}
+.footer {
+	background-image:url("https://img.freepik.com/premium-vector/background-beige-gradient-vector_686681-34.jpg");
+	height: 10vh;
+	width: 100%;
+	margin: 0 auto;
+}
+.footer p {
+	float: right;
+	padding-right: 2%;
+	padding-top: 0.85%;
+	font-size: 1.1em;
+}
+.footer img {
+	padding: 0.75%;
+}
+@media (max-width: 900px) {
+	.le {
+		text-align: center;
+		padding-left: 0%;
+	}
+	.main ol {
+		padding-left: 16%;
+	}
+}
